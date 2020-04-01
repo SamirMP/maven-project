@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     parameters {
-         string(name: 'tomcat_prod', defaultValue: 'ec2-user@ec2-63-32-91-21.eu-west-1.compute.amazonaws.com', description: 'Production Server')
+         string(name: 'tomcat_prod', defaultValue: 'ec2-63-32-91-21.eu-west-1.compute.amazonaws.com', description: 'Production Server')
     }
 
     triggers {
